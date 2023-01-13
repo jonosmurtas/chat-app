@@ -1,0 +1,164 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+  height: 700px;
+  gap: 20px;
+}
+
+.message_box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: scroll;
+  width: 550px;
+  height: 600px;
+  background-color: #888;
+  border-radius: 10px 0px;
+  border-bottom: none;
+  border-bottom: solid #222 3px;
+}
+
+.app-ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #888;
+  border-radius: 10px 10px;
+  border: solid #222 3px;
+}
+
+h1 {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 85%;
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 500px;
+  margin-right: 10px;
+}
+
+.text {
+  display: flex;
+  margin: 10px;
+  width: 80%;
+  height: 100%;
+}
+
+.submit_btn {
+  background: white;
+  border: none;
+  border-radius: 5000px;
+  width: 15%;
+  height: 35px;
+}
+
+.message-singl {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.created-at {
+  padding: 0px 10px;
+  font-size: 14px;
+  color: #222;
+}
+
+.msg-text {
+  background-color: white;
+  background-size: cover;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5000px;
+}
+
+.send_location {
+  margin: 10px;
+  background: white;
+  border: none;
+  border-radius: 5000px;
+  width: 20%;
+  height: 35px;
+}
+
+.secondary-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.username {
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
+  color: #222;
+}
+
+/* info box */
+
+.info-Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  background-color: #888;
+  border-radius: 10px;
+  border-bottom: none;
+  border-bottom: solid #222 3px;
+  overflow: hidden;
+}
+
+.room-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+.room-name {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+.users-box {
+  width: 120%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  /* transform: translateX(); */
+}
+
+.username-inf {
+  padding-top: 12px;
+  font-weight: 550;
+  font-size: 16px;
+}
